@@ -1,0 +1,35 @@
+.fila {
+    padding-bottom: 25px;
+}
+
+.container-pc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* Alinea las cartas en el centro de cada fila */
+
+
+}
+
+.card-pokemon {
+    width: calc(33.33% - 20px);
+    /* Ajusta el ancho de cada carta para que haya 3 por fila */
+    margin: 10px;
+    /* Espacio entre las cartas */
+    background: rgb(63, 74, 251);
+    background: radial-gradient(circle, rgba(63, 74, 251, 0.9626168224299065) 0%, rgba(249, 3, 3, 1) 100%);
+    /* Color de fondo de la carta */
+    color: azure !important;
+    font-weight: bold !important;
+}
+
+.btn-carta {
+    background-color: yellow;
+    border-radius: 15px;
+    border: none !important;
+}
+
+.img-pokemon {
+    width: 100px !important;
+    height: auto !important;
+}
